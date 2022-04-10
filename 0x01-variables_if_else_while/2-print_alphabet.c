@@ -10,6 +10,7 @@ int main()
   /* jumps from 'A'(65) to 'B'(66) to ... in order*/
     {
         putchar(tolower(x));
+	putchar(' ');
   /*the return value is returned as a parameter */
     }
     return (0);

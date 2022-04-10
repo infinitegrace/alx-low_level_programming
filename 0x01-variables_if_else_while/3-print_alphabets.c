@@ -11,12 +11,12 @@ int x;
 for (x = 'A'; x <= 'Z'; x++)
 /* jumps from 'A'(65) to 'B'(66) to ... in order*/
 {
-        putchar(tolower(x));
+putchar(tolower(x));
 /*the return value is returned as a parameter */
 }
 for (x = 'A'; x <= 'Z'; x++)
 {
-	putchar(toupper(x));
+putchar(toupper(x));
 }
 putchar('\n');
 return (0);

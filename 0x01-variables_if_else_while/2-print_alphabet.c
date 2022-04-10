@@ -1,37 +1,16 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - Prints numbers between 00 to 89.
- *
- * Return: Always 0 (Success)
+ * main - entry point of code
+ * Return: 0 if successful any value if otherwise
  */
-int main(void)
+int main()
 {
-	int i, e;
-
-	i = 48;
-	e = 48;
-
-	while (e < 58)
-	{
-		i = 48;
-		while (i < 58)
-		{
-			if (e != i && e < i)
-			{
-				putchar(e);
-				putchar(i);
-				if (i == 57 && e == 56)
-				{
-					break;
-				}
-				putchar(',');
-				putchar(' ');
-			}
-			i++;
-		}
-		e++;
-	}
-	putchar('\n');
-	return (0);
+    for(int x = 'A'; x <= 'Z'; x++) 
+  /* jumps from 'A'(65) to 'B'(66) to ... in order*/
+    {
+        putchar(tolower(x));
+  /*the return value is returned as a parameter */
+    }
+    return (0);
 }

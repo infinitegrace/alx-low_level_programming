@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /*
- * main - code entry point.
+ * main - This isbthe code entry point.
  *Return: 0 if successful,another valid uf other wais.
  */
 int main(void)

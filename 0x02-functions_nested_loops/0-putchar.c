@@ -1,5 +1,7 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
+
 
 /**
  * _putchar - writes the character c to stdout
@@ -8,7 +10,12 @@
  * Return: On success 0.
  * On error, 1 is returned, and error is set appropriately.
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(0, &c, 1));
+	int A, res;
+
+	res = _putchar('A');
+
+	printf("%d", res);
+	return (0);
 }

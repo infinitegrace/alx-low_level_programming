@@ -12,7 +12,7 @@
  */
 int main(void)
 {
-	int A, res;
+	int res;
 
 	res = _putchar('A');
 

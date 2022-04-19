@@ -1,6 +1,14 @@
 #include "main.h"
 #include <ctype.h>
 
+/**
+ * _isupper - checks for uppercase character.
+ *int c -  parameter for _isupper.
+ *Return: 0 Always
+ */
+
+/*c - my function parameter */
+
 int _isupper(int c)
 {
 	int uppercase;
@@ -8,7 +16,8 @@ int _isupper(int c)
 	uppercase = toupper(c);
 
 	if (c == uppercase)
-		return(1);
+		return (1);
+
 	else
 		return (0);
 }
